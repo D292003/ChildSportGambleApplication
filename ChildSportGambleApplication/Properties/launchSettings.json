@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "ChildSportGambleApplication (Package)": {
+      "commandName": "MsixPackage"
+    },
+    "ChildSportGambleApplication (Unpackaged)": {
+      "commandName": "Project"
+    }
+  }
+}
