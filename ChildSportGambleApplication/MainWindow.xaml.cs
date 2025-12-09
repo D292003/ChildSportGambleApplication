@@ -81,7 +81,7 @@ namespace ChildSportGambleApplication
             using (var db = new AppDbContext())
             {
                 var users = db.User_Info.ToList();
-
+                All_Info.Text = "";
                 foreach (var u in users)
                 {
                     All_Info.Text += $"{u.Id}: {u.Name} - ({u.Points} points){Environment.NewLine}";
