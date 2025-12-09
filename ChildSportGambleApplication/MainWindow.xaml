@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="utf-8"?>
 <Window
     x:Class="ChildSportGambleApplication.MainWindow"
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
@@ -13,10 +12,13 @@
         <MicaBackdrop />
     </Window.SystemBackdrop>
 
-    <Grid>
-        <StackPanel>
-            <TextBox x:Name="email"/>
-            <TextBox x:Name="password"/>
-        </StackPanel>
-    </Grid>
+    <StackPanel Margin="20" Spacing="10">
+        <TextBox x:Name="NameTextBox" Header="Name" />
+        <TextBox x:Name="PasswordTextBox" Header="Password" />
+        <Button Content="Create Account" Click="CreateAccount_Click"/>
+        <TextBox x:Name="User_Info" Height="200" IsReadOnly="True" TextWrapping="Wrap"/>
+        <TextBlock>All Users:</TextBlock>
+        <TextBox x:Name="All_Info" Height="200" IsReadOnly="True" TextWrapping="Wrap"/>
+
+    </StackPanel>
 </Window>
