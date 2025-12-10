@@ -17,7 +17,7 @@ namespace ChildSportGambleApplication.Data
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseMySql("host=localhost;username=root;password=;database=Test222",
+            optionsBuilder.UseMySql("host=localhost;username=root;password=;database=Hoenkieplankiemetsatésaus_wokkie_wokkie_plingplongsieplongplong",
                 MySqlServerVersion.Parse("8.4.3"));
         }
 
