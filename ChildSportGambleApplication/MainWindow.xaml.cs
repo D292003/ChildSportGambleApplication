@@ -38,9 +38,9 @@ namespace ChildSportGambleApplication
             this.InitializeComponent();
             using (var db = new AppDbContext())
             {
-                db.Database.EnsureDeleted();
+                //db.Database.EnsureDeleted();
                 db.Database.EnsureCreated();
-            } 
+            }
         }
 
         private void CreateAccount_Click(object sender, RoutedEventArgs e)
